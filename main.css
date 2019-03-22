@@ -1,14 +1,14 @@
-﻿html {
-    height:100%;
+﻿html, body {
+    margin:0; 
+	padding:0; 
 }
 body {
     background-color: #ecf0f1;
-    height:100%;
-
 }
 
 header#master {
-    background-color: #cbd0d3;
+    padding:25px 0px;
+    background-color: #1abc9c;
     text-align: center;
 }
 
@@ -17,23 +17,53 @@ header#master {
     width: 20%;
 }
 
+.content-column {
+    width:75%;
+	background-color:#ecf0f1;
+	margin: auto;
+    padding:25px;
+    
+}
+#column-header{
+    
+}
+
+#logo {
+    text-align
+}
+nav{
+    float: right;
+}
+
+
 main {
     height:100%;
     width:100%;
     margin:auto
 }
 
-.section-articlep {
-    background-color:#ff0000;
-    height:50px;
+
+.corps {
+    overflow:auto;
 }
 
-.section-articlei {
-    float:left;
-    background-color:#00ff00;
-    width:50%;
-    height:50%;
+.corps-line{
+    margin:auto;
+    height: 100%;
+    overflow: inherit;
 }
+.column-right .column-left {
+    display: inline-block;
+    vertical-align: top;
+}
+.column-left {
+    float:left;
+    width:50%;
+}
+.column-right {
+    overflow:auto;
+}
+
 
 .gif-animaux {
     width: 50px;
@@ -46,6 +76,7 @@ main {
 }
 
 footer#master {
-    background-color: #cbd0d3;
+    padding:25px 0px;
+    background-color: #4aa3df;
     text-align: center;
 }
