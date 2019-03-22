@@ -1,6 +1,6 @@
 ﻿html, body {
-    margin:0; 
-	padding:0; 
+    margin:0;
+	padding:0;
 }
 body {
     background-color: #ecf0f1;
@@ -8,7 +8,7 @@ body {
 
 header#master {
     padding:25px 0px;
-    background-color: #1abc9c;
+    background: linear-gradient( #1abc9c, 75%, #4aa3df);
     text-align: center;
 }
 
@@ -18,19 +18,31 @@ header#master {
 }
 
 .content-column {
-    width:75%;
+    width:80%;
 	background-color:#ecf0f1;
 	margin: auto;
     padding:25px;
-    
+
 }
-#column-header{
-    
+
+#aside-column{
+    width: 20%;
+    background-color:#ecf0f1;
+	margin: auto;
+    padding:25px;
+}
+
+#main-column{
+    width: 60%;
+    background-color:#ecf0f1;
+	margin: auto;
+    padding:25px;
 }
 
 #logo {
-    text-align
+    text-align: left;
 }
+
 nav{
     float: right;
 }
@@ -39,7 +51,10 @@ nav{
 main {
     height:100%;
     width:100%;
-    margin:auto
+    margin:auto;
+    background-color: #4aa3df;
+    padding:25px 0px;
+
 }
 
 
@@ -77,6 +92,6 @@ main {
 
 footer#master {
     padding:25px 0px;
-    background-color: #4aa3df;
+    background: linear-gradient( #4aa3df, 25%, #1abc9c );
     text-align: center;
 }
