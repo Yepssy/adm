@@ -8,13 +8,20 @@ body {
 
 header#master {
     padding:25px 0px;
-    background: linear-gradient( #1abc9c, 75%, #4aa3df);
+    background: linear-gradient(to bottom right, #1abc9c, 75%, #4aa3df);
     text-align: center;
 }
 
 #logo {
     height: 10%;
     width: 20%;
+}
+
+.main-corps-line{
+    margin:auto;
+    height: 80%;
+    padding:25px;
+    overflow: inherit;
 }
 
 .content-column {
@@ -28,16 +35,15 @@ header#master {
 #aside-column{
     width: 20%;
     background-color:#ecf0f1;
-	margin: auto;
-    padding:25px;
+    overflow:auto;    
 }
 
 #main-column{
     width: 60%;
     background-color:#ecf0f1;
-	margin: auto;
-    padding:25px;
+	float:left;
 }
+
 
 #logo {
     text-align: left;
@@ -92,6 +98,6 @@ main {
 
 footer#master {
     padding:25px 0px;
-    background: linear-gradient( #4aa3df, 25%, #1abc9c );
+    background: linear-gradient(to top right, #4aa3df, 25%, #1abc9c );
     text-align: center;
 }
