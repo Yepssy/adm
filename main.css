@@ -8,7 +8,6 @@ body {
 
 header#master {
     padding:25px 0px;
-    background: linear-gradient(to bottom right, #1abc9c, 75%, #4aa3df);
     text-align: center;
 }
 
@@ -20,9 +19,6 @@ header#master {
 #main-corps-line{
     margin:auto;
     overflow: inherit;
-}
-main{
-    text-align: center;
 }
 
 .content-column {
@@ -59,9 +55,8 @@ main {
     height:100%;
     width:100%;
     margin:auto;
-    background-color: #4aa3df;
     padding:25px 0px;
-
+    text-align: center;
 }
 
 
@@ -102,6 +97,5 @@ main {
 
 footer#master {
     padding:25px 0px;
-    background: linear-gradient(to top right, #4aa3df, 25%, #1abc9c );
     text-align: center;
 }

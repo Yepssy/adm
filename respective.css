@@ -1,0 +1,11 @@
+header#master.asie{
+    background: linear-gradient(#1abc9c, 75%, #4aa3df);
+}
+
+main.asie{
+    background: linear-gradient(#4aa3df, 25%, #1abc9c, 75%, #4aa3df);
+}
+
+footer#master.asie{
+    background: linear-gradient(to top right, #4aa3df, 25%, #1abc9c );
+}
