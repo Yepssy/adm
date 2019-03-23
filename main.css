@@ -4,6 +4,7 @@
 }
 body {
     background-color: #ecf0f1;
+    border-radius: 30%;
 }
 
 header#master {
@@ -22,24 +23,25 @@ header#master {
 }
 
 .content-column {
-    width:80%;
-	background-color:#ecf0f1;
+    max-width:80%;
+	background-color:#fbfcfc;
 	margin: auto;
     padding:25px;
     border-radius: 100px 10px / 200px;
 }
 
 #aside-column{
-    width: 22%;
+    max-width: 22%;
     height: 100%;
-    background-color:#ecf0f1;
+    background-color:#fbfcfc;
     float: right; 
-    border-radius: 100px 10px / 200px;   
+    border-radius: 100px 10px / 200px;
+
 }
 
 #main-column{
-    width: 72%;
-    background-color:#ecf0f1;
+    max-width: 72%;
+    background-color:#fbfcfc;
     float:left;
     border-radius: 100px 10px / 200px;
 }
@@ -51,7 +53,6 @@ header#master {
 nav{
     float: right;
 }
-
 
 main {
     height:100%;
@@ -65,8 +66,8 @@ main {
 .corps {
     overflow:auto;
     margin: auto;
-    padding:25px;
-    width: 80%;
+    padding:10px;
+    width: 85%;
 }
 
 .corps-line{
@@ -95,6 +96,19 @@ main {
 
 .def-animaux {
     font-family: Arial;
+}
+
+.floating-top{
+    position: fixed;
+    top: 89%;
+    left: 94%;
+}
+
+img.floating-top{
+    width: 5%;
+}
+img.floating-top:hover{
+    opacity: 0.75;
 }
 
 footer#master {

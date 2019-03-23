@@ -10,26 +10,28 @@ footer#master.asie{
     background: linear-gradient(#ea6153, 25%, #e67e22 );
 }
 
-header#master.asie{
-    background: linear-gradient(#e67e22, 75%, #ea6153);
+
+header#master.europe{
+    background: linear-gradient(#339dff, 75%, #3498db);
 }
 
-main.asie{
-    background: linear-gradient(#ea6153, 25%, #c0392b, 75%, #ea6153);
+main.europe{
+    background: linear-gradient(#3498db, 25%, #2980b9, 75%, #3498db);
 }
 
-footer#master.asie{
-    background: linear-gradient(#ea6153, 25%, #e67e22 );
+footer#master.europe{
+    background: linear-gradient(#3498db, 25%, #339dff );
 }
 
-header#master.asie{
-    background: linear-gradient(#e67e22, 75%, #ea6153);
+
+header#master.oceanie{
+    background: linear-gradient(#b033ff, 75%, #a66bbe);
 }
 
-main.asie{
-    background: linear-gradient(#ea6153, 25%, #c0392b, 75%, #ea6153);
+main.oceanie{
+    background: linear-gradient(#a66bbe, 25%, #660099, 75%, #a66bbe);
 }
 
-footer#master.asie{
-    background: linear-gradient(#ea6153, 25%, #e67e22 );
+footer#master.oceanie{
+    background: linear-gradient(#a66bbe, 25%, #b033ff );
 }
