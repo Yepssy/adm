@@ -9,3 +9,27 @@ main.asie{
 footer#master.asie{
     background: linear-gradient(#ea6153, 25%, #e67e22 );
 }
+
+header#master.asie{
+    background: linear-gradient(#e67e22, 75%, #ea6153);
+}
+
+main.asie{
+    background: linear-gradient(#ea6153, 25%, #c0392b, 75%, #ea6153);
+}
+
+footer#master.asie{
+    background: linear-gradient(#ea6153, 25%, #e67e22 );
+}
+
+header#master.asie{
+    background: linear-gradient(#e67e22, 75%, #ea6153);
+}
+
+main.asie{
+    background: linear-gradient(#ea6153, 25%, #c0392b, 75%, #ea6153);
+}
+
+footer#master.asie{
+    background: linear-gradient(#ea6153, 25%, #e67e22 );
+}
