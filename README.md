@@ -4,3 +4,4 @@
 - Faire un beau menu
 - Ombres
 - Police personnalisées
+- Caroussel

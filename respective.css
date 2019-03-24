@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Asiago";
+  src: url("./font/asiago.ttf");
+}
+
 header#master.asie{
     background: linear-gradient(#e67e22, 75%, #ea6153);
 }
@@ -10,6 +15,12 @@ footer#master.asie{
     background: linear-gradient(#ea6153, 25%, #e67e22 );
 }
 
+h1.asie, h2.asie, h3.asie{
+	color: #ea6153;
+}
+span.asie, h2.asie, h3.asie {
+	font-family:Asiago;
+}
 
 header#master.europe{
     background: linear-gradient(#339dff, 75%, #3498db);

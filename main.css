@@ -12,6 +12,15 @@ header#master {
     text-align: center;
 }
 
+p{
+    font-size: 13px;
+    font-family: 'Space Mono', monospace;
+}
+
+h1, nav{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 #logo {
     height: 10%;
     width: 20%;
@@ -20,6 +29,7 @@ header#master {
 #main-corps-line{
     margin:auto;
     overflow: inherit;
+    padding:3%;
 }
 
 .content-column {
@@ -28,22 +38,24 @@ header#master {
 	margin: auto;
     padding:25px;
     border-radius: 100px 10px / 200px;
+    box-shadow: 3px 3px 7px 5px rgba(52,73,94,0.2);
 }
 
 #aside-column{
-    max-width: 22%;
+    max-width: 20%;
     height: 100%;
     background-color:#fbfcfc;
     float: right; 
     border-radius: 100px 10px / 200px;
-
+    box-shadow: 3px 3px 7px 5px rgba(52,73,94,0.2);
 }
 
 #main-column{
-    max-width: 72%;
+    max-width: 75%;
     background-color:#fbfcfc;
     float:left;
     border-radius: 100px 10px / 200px;
+    box-shadow: 3px 3px 7px 5px rgba(52,73,94,0.2);
 }
 
 #logo {
@@ -54,6 +66,10 @@ nav{
     float: right;
 }
 
+
+.img-defil{
+    display: none;
+}
 main {
     height:100%;
     width:100%;
