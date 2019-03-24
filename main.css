@@ -4,7 +4,9 @@
 }
 body {
     background-color: #ecf0f1;
-    border-radius: 30%;
+}
+section#big{
+	 border-radius: 30%; 
 }
 
 header.master {
