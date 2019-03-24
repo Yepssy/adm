@@ -21,6 +21,16 @@ h1.asie, h2.asie, h3.asie{
 span.asie, h2.asie, h3.asie {
 	font-family:Asiago;
 }
+ul.asie{
+	background-color: #e67e22;
+}
+li a:hover.asie{
+	background-color: #ea6153;
+}
+li.asie#active{
+  background-color: #c0392b;
+}
+
 
 header#master.europe{
     background: linear-gradient(#339dff, 75%, #3498db);
