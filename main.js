@@ -1,14 +1,14 @@
-Im = 3 ;
-I = 0 ;
-setTimeout(next, 3000) ;
+Xm = 3 ;
+X = 0 ;
+setTimeout(next, 2500) ;
 
 function next()
 {
-document.images[I].style.display = "none" ;
-if ( I < Im )
-  I++;
+document.images[X].style.display = "none" ;
+if ( X < Xm )
+  X++;
 else
-  I=0;     
-document.images[I].style.display = "initial";
-setTimeout(next, 3000) ;
+  X=0;     
+document.images[X].style.display = "initial";
+setTimeout(next, 2500) ;
 }

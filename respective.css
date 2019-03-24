@@ -43,7 +43,21 @@ main.europe{
 footer#master.europe{
     background: linear-gradient(#3498db, 25%, #339dff );
 }
-
+h1.europe, h2.europe, h3.europe{
+	color: #3498db;
+}
+span.europe, h2.europe, h3.europe {
+	font-family:Asiago;
+}
+ul.europe{
+	background-color: #339dff;
+}
+li a:hover.europe{
+	background-color: #3498db;
+}
+li.europe#active{
+  background-color: #2980b9;
+}
 
 header#master.oceanie{
     background: linear-gradient(#b033ff, 75%, #a66bbe);
@@ -55,4 +69,19 @@ main.oceanie{
 
 footer#master.oceanie{
     background: linear-gradient(#a66bbe, 25%, #b033ff );
+}
+h1.oceanie, h2.oceanie, h3.oceanie{
+	color: #3498db;
+}
+span.oceanie, h2.oceanie, h3.oceanie {
+	font-family:Asiago;
+}
+ul.oceanie{
+	background-color: #339dff;
+}
+li a:hover.oceanie{
+	background-color: #3498db;
+}
+li.oceanie#active{
+  background-color: #2980b9;
 }
