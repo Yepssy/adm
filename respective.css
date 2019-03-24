@@ -1,8 +1,15 @@
 @font-face {
   font-family: "Asiago";
-  src: url("./font/asiago.ttf");
+  src: url("./font/Asiago.ttf");
 }
-
+@font-face{
+    font-family: "EuropeUndergroundBlack";
+    src: url("./font/EuropeUnderground_black.ttf");
+}
+@font-face{
+    font-family: "Tambsm";
+    src: url("./font/tambsm.ttf");
+}
 header#master.asie{
     background: linear-gradient(#e67e22, 75%, #ea6153);
 }
@@ -33,55 +40,55 @@ li.asie#active{
 
 
 header#master.europe{
-    background: linear-gradient(#339dff, 75%, #3498db);
+    background: linear-gradient(#1abc9c, 75%, #339dff);
 }
 
 main.europe{
-    background: linear-gradient(#3498db, 25%, #2980b9, 75%, #3498db);
+    background: linear-gradient(#339dff, 25%, #2980b9, 75%, #339dff);
 }
 
 footer#master.europe{
-    background: linear-gradient(#3498db, 25%, #339dff );
+    background: linear-gradient(#339dff, 25%, #1abc9c );
 }
 h1.europe, h2.europe, h3.europe{
-	color: #3498db;
+	color: #339dff;
 }
 span.europe, h2.europe, h3.europe {
-	font-family:Asiago;
+	font-family:EuropeUndergroundBlack;
 }
 ul.europe{
-	background-color: #339dff;
+	background-color: #1abc9c;
 }
 li a:hover.europe{
-	background-color: #3498db;
+	background-color: #339dff;
 }
 li.europe#active{
   background-color: #2980b9;
 }
 
 header#master.oceanie{
-    background: linear-gradient(#b033ff, 75%, #a66bbe);
+    background: linear-gradient(#a66bbe, 75%, #9b50ba);
 }
 
 main.oceanie{
-    background: linear-gradient(#a66bbe, 25%, #660099, 75%, #a66bbe);
+    background: linear-gradient(#9b50ba, 25%, #8e44ad, 75%, #9b50ba);
 }
 
 footer#master.oceanie{
-    background: linear-gradient(#a66bbe, 25%, #b033ff );
+    background: linear-gradient(#9b50ba, 25%, #a66bbe );
 }
 h1.oceanie, h2.oceanie, h3.oceanie{
-	color: #3498db;
+	color: #9b50ba;
 }
 span.oceanie, h2.oceanie, h3.oceanie {
-	font-family:Asiago;
+	font-family:Tambsm;
 }
 ul.oceanie{
-	background-color: #339dff;
+	background-color: #a66bbe;
 }
 li a:hover.oceanie{
-	background-color: #3498db;
+	background-color: #9b50ba;
 }
 li.oceanie#active{
-  background-color: #2980b9;
+  background-color: #8e44ad;
 }

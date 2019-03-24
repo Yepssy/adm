@@ -13,7 +13,7 @@ header#master {
 }
 
 p{
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Space Mono', monospace;
 }
 
@@ -21,7 +21,7 @@ h1, nav{
     font-family: 'Josefin Sans', sans-serif;
 }
 h1{
-    font-size: 40px;
+    font-size: 42px;
     text-align: center;
 }
 
@@ -84,6 +84,7 @@ ul {
 li {
   float: left;
   font-size: 25px;
+  
 }
 
 li a {
@@ -92,6 +93,8 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  vertical-align: middle;
+  height: 100%;
 }
 
 
