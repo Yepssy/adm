@@ -7,7 +7,7 @@ body {
     border-radius: 30%;
 }
 
-header#master {
+header.master {
     padding:25px 0px;
     text-align: center;
 }
@@ -42,7 +42,7 @@ h1{
 	margin: auto;
     padding:25px;
     border-radius: 100px 10px / 200px;
-    box-shadow: 3px 3px 7px 5px rgba(52,73,94,0.2);
+    box-shadow: 3px 3px 7px 6px rgba(52,73,94,0.23);
 }
 
 #aside-column{
@@ -51,7 +51,7 @@ h1{
     background-color:#fbfcfc;
     float: right; 
     border-radius: 100px 10px / 200px;
-    box-shadow: 3px 3px 7px 5px rgba(52,73,94,0.2);
+    box-shadow: 3px 3px 7px 6px rgba(52,73,94,0.23);
 }
 
 #main-column{
@@ -59,7 +59,7 @@ h1{
     background-color:#fbfcfc;
     float:left;
     border-radius: 100px 10px / 200px;
-    box-shadow: 3px 3px 7px 5px rgba(52,73,94,0.2);
+    box-shadow: 3px 3px 7px 6px rgba(52,73,94,0.23);
 }
 
 .logo {
@@ -78,7 +78,6 @@ ul {
   overflow: hidden;
   width: 70%;
   float: right;
-  vertical-align: middle;
 }
 
 li {
@@ -93,7 +92,6 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  vertical-align: middle;
   height: 100%;
 }
 
@@ -137,7 +135,6 @@ main {
 
 .gif-animaux {
     width: 50px;
-    frameBorder: 0;
     text-align: center;
 }
 
@@ -158,7 +155,7 @@ img.floating-top:hover{
     opacity: 0.75;
 }
 
-footer#master {
+footer.master {
     padding:25px 0px;
     text-align: center;
 }

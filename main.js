@@ -12,3 +12,4 @@ else
 document.images[X].style.display = "initial";
 setTimeout(next, 2500) ;
 }
+
