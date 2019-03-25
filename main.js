@@ -1,6 +1,6 @@
 Xm = 3 ;
 X = 0 ;
-setTimeout(next, 3600) ;
+setTimeout(next, 4242) ;
 
 function next()
 {
@@ -12,6 +12,6 @@ else
   X=0;
 
 document.images[X].style.display = "initial";
-setTimeout(next, 3600) ;
+setTimeout(next, 4242) ;
 }
 
