@@ -13,7 +13,7 @@ header.master {
 }
 
 p{
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Space Mono', monospace;
 }
 
@@ -71,6 +71,7 @@ h1{
 }
 .img-defil{
     width: 50%;
+    display: none;
 }
 
 ul {
@@ -81,7 +82,7 @@ ul {
   width: 70%;
   float: right;
   border-radius: 10px 100px / 200px;
-box-shadow: 3px 3px 7px 6px rgba(52,73,94,0.23);
+  box-shadow: 3px 3px 7px 6px rgba(52,73,94,0.23);
 }
 
 li {
@@ -100,9 +101,6 @@ li a {
 }
 
 
-.img-defil{
-    display: none;
-}
 main {
     height:100%;
     width:100%;
@@ -115,8 +113,8 @@ main {
 .corps {
     overflow:auto;
     margin: auto;
-    padding:10px;
-    width: 85%;
+    padding:7px;
+    width: 88%;
 }
 
 .corps-line{
@@ -138,7 +136,7 @@ main {
 
 
 .gif-animaux {
-    width: 50px;
+    height: 100px;
     text-align: center;
 }
 
@@ -156,7 +154,7 @@ img.floating-top{
     width: 5%;
 }
 img.floating-top:hover{
-    opacity: 0.75;
+    opacity: 0.7;
 }
 
 footer.master {
