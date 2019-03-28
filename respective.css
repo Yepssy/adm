@@ -11,15 +11,15 @@
     src: url("./font/tambsm.ttf");
 }
 header.master.asie{
-    background: linear-gradient(#e67e22, 75%, #ea6153);
+    background: linear-gradient(#e67e22 75%, #ea6153);
 }
 
 main.asie{
-    background: linear-gradient(#ea6153, 25%, #c0392b, 75%, #ea6153);
+    background: linear-gradient(#ea6153 25%, #c0392b 75%, #ea6153);
 }
 
 footer.master.asie{
-    background: linear-gradient(#ea6153, 25%, #e67e22 );
+    background: linear-gradient(#ea6153 25%, #e67e22 );
 }
 
 h1.asie, h2.asie, h3.asie{
@@ -40,15 +40,15 @@ li.asie#active{
 
 
 header.master.europe{
-    background: linear-gradient(#1abc9c, 75%, #339dff);
+    background: linear-gradient(#1abc9c 75%, #339dff);
 }
 
 main.europe{
-    background: linear-gradient(#339dff, 25%, #2980b9, 75%, #339dff);
+    background: linear-gradient(#339dff 25%, #2980b9 75%, #339dff);
 }
 
 footer.master.europe{
-    background: linear-gradient(#339dff, 25%, #1abc9c );
+    background: linear-gradient(#339dff 25%, #1abc9c );
 }
 h1.europe, h2.europe, h3.europe{
 	color: #339dff;
@@ -67,15 +67,15 @@ li.europe#active{
 }
 
 header.master.oceanie{
-    background: linear-gradient(#a66bbe, 75%, #9b50ba);
+    background: linear-gradient(#a66bbe 75%, #9b50ba);
 }
 
 main.oceanie{
-    background: linear-gradient(#9b50ba, 25%, #8e44ad, 75%, #9b50ba);
+    background: linear-gradient(#9b50ba 25%, #8e44ad 75%, #9b50ba);
 }
 
 footer.master.oceanie{
-    background: linear-gradient(#9b50ba, 25%, #a66bbe );
+    background: linear-gradient(#9b50ba 25%, #a66bbe );
 }
 h1.oceanie, h2.oceanie, h3.oceanie{
 	color: #9b50ba;
