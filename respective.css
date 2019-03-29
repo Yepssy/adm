@@ -24,10 +24,12 @@ footer.master.asie{
 
 h1.asie, h2.asie, h3.asie{
 	color: #ea6153;
+
 }
 span.asie, h2.asie, h3.asie {
-	font-family:Asiago;
+    font-family:Asiago;
 }
+
 ul.asie{
 	background-color: #e67e22;
 }
