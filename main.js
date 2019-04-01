@@ -3,9 +3,15 @@ function BoutonDroit()
 if((event.button==2)||(event.button==3)||(event.button==4))
 alert('Hey what you do expect ?');
 }
+
+function Alerte()
+{
+  return false
+  alert("Hey what you do expect ?");
+}
 document.onmousedown=BoutonDroit; 
-document.oncontextmenu = new Function("return false");
-document.onselectstart=new Function ("return false");
+document.oncontextmenu =Alerte;
+document.onselectstart=Alerte;
 
 Xm = 3 ;
 X = 0 ;
