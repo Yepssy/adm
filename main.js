@@ -1,3 +1,10 @@
+function BoutonDroit()
+{
+if((event.button==2)||(event.button==3)||(event.button==4))
+alert('Le bouton droit de la souris à été desactivé');
+}
+document.onmousedown=BoutonDroit; 
+
 
 Xm = 3 ;
 X = 0 ;
@@ -21,4 +28,3 @@ else
 document.images[X].style.display = "initial";
 setTimeout(next, n) ;
 }
-
