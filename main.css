@@ -15,6 +15,7 @@ header.master {
 p{
     font-size: 16px;
     font-family: 'Space Mono', monospace;
+    text-align: justify;
 }
 
 h1, nav{
