@@ -6,8 +6,8 @@ alert('Hey what you do expect ?');
 
 function Alerte()
 {
-  return false
   alert("Hey what you do expect ?");
+  return false
 }
 document.onmousedown=BoutonDroit; 
 document.oncontextmenu =Alerte;
