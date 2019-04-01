@@ -5,15 +5,7 @@ alert('Hey what you do expect ?');
 }
 document.onmousedown=BoutonDroit; 
 document.oncontextmenu = new Function("return false");
-function selection(e)
-{ return false; }
-function clic()
-{ return true; }
-
 document.onselectstart=new Function ("return false");
-if (window.sidebar) {
-document.onmousedown=selection;
-document.onclick=clic; 
 
 Xm = 3 ;
 X = 0 ;
