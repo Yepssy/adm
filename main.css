@@ -17,13 +17,20 @@ p{
     font-family: 'Space Mono', monospace;
     text-align: justify;
 }
-
+#main-header{
+    display: inline-block;
+    width: 100%;
+}
+nav{
+    margin-top:2%;
+}
 h1, nav{
     font-family: 'Josefin Sans', sans-serif;
 }
 h1{
     font-size: 42px;
     text-align: center;
+    display: inline-block;
 }
 h2{
     font-size: 30px;
@@ -69,6 +76,7 @@ h2{
 .logo {
     float: left;
     width: 20%;
+    height: 100%;
     vertical-align: middle;
     margin-top: 1.6%;
     margin-left: 1.5%;
