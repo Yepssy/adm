@@ -1,45 +1,51 @@
-function BoutonDroit()
-{
-if((event.button==2)||(event.button==3)||(event.button==4))
-alert('Hey what you do expect ?');
-}
-
-function Alerte()
-{
+function alerte(){
   alert("Hey what you do expect ?");
   return false
 }
-document.onmousedown=BoutonDroit; 
-document.oncontextmenu =Alerte;
-document.onselectstart=Alerte;
 
+function rotateCmd() {
+  var img = document.getElementById("rotate");
+  var t = img.style.transform.match(/(\d+)/g) || [0];
+  val = ( t[0] *1 +1) % 360;
+  img.style.transform = 'rotate(' +val +'deg)'
 
-function myFunction() {
-  var img = document.getElementById("up");
-  var t = img.style.transform.match(/(\d+)/g) || [0];  // on met ||[0) pour le 1st passage
-  var val = ( t[0] *1 +40) % 360;                      // incrémentation de 40
-  img.style.transform = 'rotate(' +val +'deg)';
+  if (val == 358) {
+    clearInterval(interv);
+    delete(interv);
+    val = 0;
+  }
 }
 
-Xm = 3 ;
-X = 0 ;
-let n = 25;
-setTimeout(next, 460) ;
-
-function next()
+function rotate() 
 {
+  if (typeof interv == "undefined") {
+    if (sens == "undefined") {
+      
+    } else {
+      
+    }
+    interv = setInterval(rotateCmd, 5)
+  }
+}
 
+function next(){
 if (n < 2500) {
   n = n * 1.25;
 }
-
 document.images[X].style.display = "none" ;
-
 if ( X < Xm )
   X++;
 else
   X=0;
-
 document.images[X].style.display = "initial";
 setTimeout(next, n) ;
 }
+
+//document.onmousedown=alerte; 
+//document.oncontextmenu =alerte;
+//document.onselectstart=alerte;
+
+Xm = 3 ;
+X = 0 ;
+var n = 25;
+setTimeout(next, 460) ;
