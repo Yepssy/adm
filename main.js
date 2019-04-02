@@ -38,8 +38,9 @@ setTimeout(next, n) ;
 }
 
 //document.onmousedown=alerte; 
-//document.oncontextmenu =alerte;
-//document.onselectstart=alerte;
+document.oncontextmenu =alerte;
+document.onselectstart=alerte;
+
 var sens = false;
 Xm = 3 ;
 X = 0 ;
