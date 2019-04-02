@@ -15,8 +15,8 @@ function stay(){
   } else {
     alert("Reste avec nous stp ! P-S : Ya un easter egg !!")
   }
-  
 }
+
 function rotateCmd() {
   var img = document.getElementById("rotate");
   var t = img.style.transform.match(/(\d+)/g) || [0];
