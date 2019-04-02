@@ -6,7 +6,7 @@ function alerte(){
 function rotateCmd() {
   var img = document.getElementById("rotate");
   var t = img.style.transform.match(/(\d+)/g) || [0];
-  val = ( t[0] *1 +1) % 360 * ( Number(sens) * 2 -1 );
+  val = ( t[0] *1 +1) % 360 * ( Number(sens) * 2 - 1 );
   img.style.transform = 'rotate(' +val +'deg)'
 
   if (val == 359 || val == -359) {
