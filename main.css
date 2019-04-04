@@ -147,10 +147,11 @@ main {
 }
 .column-left {
     float:left;
-    width:50%;
+    
 }
 .column-right {
     overflow:auto;
+    min-width: min-content;
 }
 
 
