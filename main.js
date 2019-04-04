@@ -53,13 +53,27 @@ function next(){
   setTimeout(next, n) ;
 }
 
-//document.oncontextmenu =alerte;
-//document.onselectstart=alerte;
+function responsive(){
+  
+  if (screen.width < 850) {
+    let x = document.getElementsByClassName("column-left");
+    let i;
+    for (i = 0; i < x.length; i++) {
+      x[i].style.width = "auto";
+    } 
+  }
+}
+
+
+document.oncontextmenu =alerte;
+document.onselectstart=alerte;
 document.onunload=stay;
+
+setTimeout(responsive, 1000)
 var sens = false;
 var ee = false;
 i = 0;
 Xm = 3 ;
 X = 0 ;
 var n = 25;
-setTimeout(next, 460) ;
+setTimeout(next, 460);

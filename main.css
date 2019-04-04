@@ -18,15 +18,6 @@ p{
     text-align: justify;
 }
 
-#main-header{
-    display: inline-block;
-    width: 100%;
-}
-nav{
-    margin-top:2%;
-    float: inline-end;
-    max-width: 90%;
-}
 h1, nav{
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -39,9 +30,66 @@ h2{
     font-size: 30px;
 }
 
-#logo {
-    height: 10%;
-    width: 20%;
+
+#main-header{
+    display: inline-block;
+    width: 100%;
+}
+nav{
+    margin-top:2%;
+    float: inline-end;
+    max-width: 80%;
+}
+
+.logo {
+    float: inline-start;
+    min-width: 20%;
+    height: 100%;
+    vertical-align: middle;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+
+}
+.img-defil{
+    width: 50%;
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px 20px 0px 0px;
+    padding: 0px 0px 0px 10px;
+  
+    width: 100%;
+    float: right;
+    border-radius: 10px 100px / 200px;
+    box-shadow: 3px 3px 7px 6px rgba(52,73,94,0.23);
+}
+  
+li {
+    float: left;
+    font-size: 25px;
+    min-width: 10%
+  
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 100%;
+}
+  
+
+
+main {
+    height:100%;
+    width:100%;
+    margin:auto;
+    padding:25px 0px;
+    text-align: center;
 }
 
 #main-corps-line{
@@ -76,55 +124,7 @@ h2{
     box-shadow: 3px 3px 7px 6px rgba(52,73,94,0.23);
 }
 
-.logo {
-    float: inline-start;
-    min-width: 20%;
-    height: 100%;
-    vertical-align: middle;
-    margin-top: 1.6%;
-    margin-left: 1.5%;
 
-}
-.img-defil{
-    width: 50%;
-    display: none;
-}
-
-ul {
-  list-style-type: none;
-  margin: 20px 20px 0px 0px;
-  padding: 0px 0px 0px 10px;
-
-  width: 75%;
-  float: right;
-  border-radius: 10px 100px / 200px;
-  box-shadow: 3px 3px 7px 6px rgba(52,73,94,0.23);
-}
-
-li {
-  float: left;
-  font-size: 25px;
-  min-width: 15%
-
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  height: 100%;
-}
-
-
-main {
-    height:100%;
-    width:100%;
-    margin:auto;
-    padding:25px 0px;
-    text-align: center;
-}
 
 
 .corps {
@@ -147,12 +147,13 @@ main {
 }
 .column-left {
     float:left;
-    
+    width: 50%; 
 }
 .column-right {
     overflow:auto;
     min-width: min-content;
 }
+
 
 
 .gif-animaux {
@@ -170,12 +171,16 @@ main {
     left: 94%;
 }
 
+
+
 img.floating-top{
     width: 5%;
 }
 img.floating-top:hover{
     opacity: 0.7;
 }
+
+
 
 footer.master {
     padding:25px 0px;
