@@ -122,6 +122,7 @@ main {
     float:left;
     border-radius: 100px 10px / 200px;
     box-shadow: 3px 3px 7px 6px rgba(52,73,94,0.23);
+    margin-bottom: 5%;
 }
 
 
@@ -130,11 +131,11 @@ main {
 .corps {
     overflow:auto;
     margin: auto;
-    padding:1% 4% 1% 5%;
+    padding:1% 5%;
     width: 88%;
 }
 .corps-aside{
-    margin: 15px;
+    padding: 0% 3% 16% 16%;
 }
 .corps-line{
     margin:auto;

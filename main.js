@@ -55,21 +55,34 @@ function next(){
 
 function responsive(){
   
-  if (screen.width < 850) {
-    let x = document.getElementsByClassName("column-left");
+  if (document.body.clientWidth <= 900) {
+    let colleft = document.getElementsByClassName("column-left");
     let i;
-    for (i = 0; i < x.length; i++) {
-      x[i].style.width = "auto";
+    for (i = 0; i < colleft.length; i++) {
+      colleft[i].style.width = "auto";
+    }
+
+    let colmain = document.getElementById("main-column");
+    colmain.style.width = "auto";
+
+    let colaside = document.getElementById("aside-column");
+    colaside.style.width = "auto";
+
+    
+    let crpaside = document.getElementsByClassName("corps-aside");
+    for (i = 0; i < crpaside.length; i++) {
+      crpaside[i].style.padding = "1% 5%";
     } 
   }
 }
 
 
-document.oncontextmenu =alerte;
-document.onselectstart=alerte;
+//document.oncontextmenu =alerte;
+//document.onselectstart=alerte;
 document.onunload=stay;
 
-setTimeout(responsive, 1000)
+setTimeout(responsive, 5000)
+alert(screen.width)
 var sens = false;
 var ee = false;
 i = 0;
