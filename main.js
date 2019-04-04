@@ -2,7 +2,8 @@ function alerte(){
   alert("Hey what you do expect ?");
   return false
 }
-function so() {
+
+function so(){
   i ++;
   if (i == 6) {
     alert("Easter Eggs :  Oh Tourniquet !! ")
@@ -17,7 +18,7 @@ function stay(){
   }
 }
 
-function rotateCmd() {
+function rotateCmd(){
   var img = document.getElementById("rotate");
   var t = img.style.transform.match(/(\d+)/g) || [0];
   val = ( t[0] *1 +1) % 360 * ( Number(sens) * 2 - 1 );
@@ -30,8 +31,7 @@ function rotateCmd() {
   }
 }
 
-function rotate() 
-{
+function rotate(){
   if (typeof interv == "undefined") {
     sens =! sens;
     so();
@@ -40,22 +40,21 @@ function rotate()
 }
 
 function next(){
-if (n < 2500) {
-  n = n * 1.25;
+  if (n < 2500) {
+    n = n * 1.25;
+  }
+
+  document.images[X].style.display = "none" ;
+  if ( X < Xm )
+    X++;
+  else
+    X=0;
+  document.images[X].style.display = "initial";
+  setTimeout(next, n) ;
 }
 
-document.images[X].style.display = "none" ;
-if ( X < Xm )
-  X++;
-else
-  X=0;
-document.images[X].style.display = "initial";
-setTimeout(next, n) ;
-}
-
-//document.onmousedown=alerte; 
-document.oncontextmenu =alerte;
-document.onselectstart=alerte;
+//document.oncontextmenu =alerte;
+//document.onselectstart=alerte;
 document.onunload=stay;
 var sens = false;
 var ee = false;
