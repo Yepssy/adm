@@ -56,8 +56,9 @@ function next(){
 function responsive(){
   
   if (document.body.clientWidth <= 900) {
-    let colleft = document.getElementsByClassName("column-left");
     let i;
+
+    let colleft = document.getElementsByClassName("column-left");
     for (i = 0; i < colleft.length; i++) {
       colleft[i].style.width = "auto";
     }
@@ -68,25 +69,50 @@ function responsive(){
     let colaside = document.getElementById("aside-column");
     colaside.style.width = "auto";
 
-    
+    let li = document.getElementsByTagName("li")
+    for (i = 0; i < 5; i++) {
+      li[i].style.float = "none";
+    } 
+
+    let logo = document.getElementsByClassName("logo")
+    for (i = 0; i < logo.length; i++) {
+      logo[i].style.width = "auto";
+    }
+
+    let nav = document.getElementsByTagName("nav")
+    for (i = 0; i < 1; i++) {
+      nav[i].style.margin = "0";
+    }
+
+    //let ul = document.getElementsByTagName("ul")
+    //for (i = 0; i < 1; i++) {
+    //  ul[i].style.border-radius = "0 auto";
+    //}
+
     let crpaside = document.getElementsByClassName("corps-aside");
     for (i = 0; i < crpaside.length; i++) {
       crpaside[i].style.padding = "1% 5%";
+    
     } 
+  } else if (resized == true && document.body.clientWidth > 900){
+    alert("jusde feuit")
   }
+  
 }
 
 
-//document.oncontextmenu =alerte;
-//document.onselectstart=alerte;
-document.onunload=stay;
 
-setTimeout(responsive, 5000)
-alert(screen.width)
 var sens = false;
 var ee = false;
 i = 0;
 Xm = 3 ;
 X = 0 ;
 var n = 25;
+
+
+//document.oncontextmenu =alerte;
+//document.onselectstart=alerte;
+
+document.onload=setTimeout(responsive, 2500);
+window.onresize = responsive;
 setTimeout(next, 460);

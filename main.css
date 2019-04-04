@@ -42,7 +42,7 @@ nav{
 }
 
 .logo {
-    float: inline-start;
+    float: left;
     min-width: 20%;
     height: 100%;
     vertical-align: middle;
@@ -55,7 +55,7 @@ nav{
     display: none;
 }
 
-ul {
+ul.master {
     list-style-type: none;
     margin: 20px 20px 0px 0px;
     padding: 0px 0px 0px 10px;
@@ -66,14 +66,14 @@ ul {
     box-shadow: 3px 3px 7px 6px rgba(52,73,94,0.23);
 }
   
-li {
+li.master {
     float: left;
     font-size: 25px;
     min-width: 10%
   
 }
   
-li a {
+a.master {
     display: block;
     color: white;
     text-align: center;
