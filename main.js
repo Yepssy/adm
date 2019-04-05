@@ -54,7 +54,7 @@ function next(){
 }
 
 function responsive(){
-  
+
   if (document.body.clientWidth <= 900) {
     let i;
 
@@ -72,7 +72,7 @@ function responsive(){
     let li = document.getElementsByTagName("li")
     for (i = 0; i < 5; i++) {
       li[i].style.float = "none";
-    } 
+    }
 
     let logo = document.getElementsByClassName("logo")
     for (i = 0; i < logo.length; i++) {
@@ -82,7 +82,9 @@ function responsive(){
     let nav = document.getElementsByTagName("nav")
     for (i = 0; i < 1; i++) {
       nav[i].style.margin = "0";
+      nav[i].style.float = "0";
     }
+
 
     //let ul = document.getElementsByTagName("ul")
     //for (i = 0; i < 1; i++) {
@@ -92,12 +94,10 @@ function responsive(){
     let crpaside = document.getElementsByClassName("corps-aside");
     for (i = 0; i < crpaside.length; i++) {
       crpaside[i].style.padding = "1% 5%";
-    
-    } 
-  } else if (resized == true && document.body.clientWidth > 900){
-    alert("jusde feuit")
+
+    }
   }
-  
+
 }
 
 
@@ -114,5 +114,4 @@ var n = 25;
 //document.onselectstart=alerte;
 
 document.onload=setTimeout(responsive, 2500);
-window.onresize = responsive;
 setTimeout(next, 460);

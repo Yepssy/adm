@@ -37,8 +37,9 @@ h2{
 }
 nav{
     margin-top:2%;
-    float: inline-end;
+    float: right;
     max-width: 80%;
+
 }
 
 .logo {
@@ -59,19 +60,19 @@ ul.master {
     list-style-type: none;
     margin: 20px 20px 0px 0px;
     padding: 0px 0px 0px 10px;
-  
+
     width: 100%;
     float: right;
     border-radius: 10px 100px / 200px;
     box-shadow: 3px 3px 7px 6px rgba(52,73,94,0.23);
 }
-  
+
 li.master {
     float: left;
     font-size: 25px;
     min-width: 10%;
 }
-  
+
 a.master {
     display: block;
     color: white;
@@ -80,7 +81,6 @@ a.master {
     text-decoration: none;
     height: 100%;
 }
-  
 
 
 main {
@@ -147,10 +147,10 @@ main {
 }
 .column-left {
     float:left;
-    width: 50%; 
+    width: 50%;
 }
 .column-right {
-    overflow:auto;
+    overflow:none;
     min-width: min-content;
 }
 
@@ -180,7 +180,9 @@ img.floating-top:hover{
     opacity: 0.7;
 }
 
-
+#master-cc{
+    width: 20%
+}
 
 footer.master {
     padding:25px 0px;

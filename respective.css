@@ -95,3 +95,34 @@ li a:hover.oceanie{
 li.oceanie#active{
   background-color: #8e44ad;
 }
+
+
+header.master.contact{
+    background: linear-gradient(#e67e22 75%, #ea6153);
+}
+
+main.contact{
+    background: linear-gradient(#ea6153 25%, #c0392b 75%, #ea6153);
+}
+
+footer.master.contact{
+    background: linear-gradient(#ea6153 25%, #e67e22 );
+}
+
+h1.contact, h2.contact, h3.contact{
+	color: #ea6153;
+
+}
+span.contact, h2.contact, h3.contact {
+    font-family:Asiago;
+}
+
+ul.contact{
+	background-color: #e67e22;
+}
+li a:hover.contact{
+	background-color: #ea6153;
+}
+li.contact#active{
+  background-color: #c0392b;
+}

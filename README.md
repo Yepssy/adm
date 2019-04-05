@@ -1,12 +1,11 @@
 "# icn_1"
-- Mettre + de sugg
-- Faire un index  Police personnalisées pr chaque pages
-- Infos personnalise dans le aside
-- Faire un bouton de haut tournant
+
+- Modif texte
+-   Infos personnalise dans le aside
+-   Mettre + de sugg
+
 - Ascenseur perso* - https://www.paris2024.org/fr/concept -
-- Modif texte*
-- Enlever le style du no-menu
-- Trouver l'intro du javascript
 - ICone de chargement de pages
-- MODIF CC
+
+- Trouver l'intro du javascript
 --EVALUATION--
