@@ -1,6 +1,5 @@
 function alerte(){
-  alert("Hey what you do expect ?");
-  return false
+  return false;
 }
 
 function so(){
