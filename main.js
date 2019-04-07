@@ -110,8 +110,8 @@ X = 0 ;
 var n = 25;
 
 
-//document.oncontextmenu =alerte;
-//document.onselectstart=alerte;
+document.oncontextmenu =alerte;
+document.onselectstart=alerte;
 
 document.onload=setTimeout(responsive, 2500);
 setTimeout(next, 460);

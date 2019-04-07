@@ -43,7 +43,7 @@ li.asie#active{
 
 
 header.master.europe{
-    background: linear-gradient(#1abc9c 75%, #339dff);
+    background: linear-gradient(#4aa3df 75%, #339dff);
 }
 
 main.europe{
@@ -51,16 +51,16 @@ main.europe{
 }
 
 footer.master.europe{
-    background: linear-gradient(#339dff 25%, #1abc9c );
+    background: linear-gradient(#339dff 25%, #4aa3df );
 }
 h1.europe, h2.europe, h3.europe{
-	color: #339dff;
+	color: #4aa3df;
 }
 span.europe, h2.europe, h3.europe {
 	font-family:EuropeUndergroundBlack;
 }
 ul.europe{
-	background-color: #1abc9c;
+	background-color: #4aa3df;
 }
 li a:hover.europe{
 	background-color: #339dff;
@@ -68,6 +68,7 @@ li a:hover.europe{
 li.europe#active{
   background-color: #2980b9;
 }
+
 
 header.master.oceanie{
     background: linear-gradient(#a66bbe 75%, #9b50ba);
@@ -97,32 +98,32 @@ li.oceanie#active{
 }
 
 
-header.master.contact{
-    background: linear-gradient(#e67e22 75%, #ea6153);
+header.master.home{
+    background: linear-gradient(#40d47e 75%, #2cc36b);
 }
 
-main.contact{
-    background: linear-gradient(#ea6153 25%, #c0392b 75%, #ea6153);
+main.home{
+    background: linear-gradient(#2cc36b 25%, #16a085 75%, #2cc36b);
 }
 
-footer.master.contact{
-    background: linear-gradient(#ea6153 25%, #e67e22 );
+footer.master.home{
+    background: linear-gradient(#2cc36b 25%, #40d47e );
 }
 
-h1.contact, h2.contact, h3.contact{
-	color: #ea6153;
+h1.home, h2.home, h3.home{
+	color: #2cc36b;
 
 }
-span.contact, h2.contact, h3.contact {
-    font-family:Asiago;
+span.home, h2.home, h3.home {
+    font-family:'Josefin Sans', sans-serif;
 }
 
-ul.contact{
-	background-color: #e67e22;
+ul.home{
+	background-color: #40d47e;
 }
-li a:hover.contact{
-	background-color: #ea6153;
+li a:hover.home{
+	background-color: #2cc36b;
 }
-li.contact#active{
-  background-color: #c0392b;
+li.home#active{
+  background-color: #16a085;
 }
