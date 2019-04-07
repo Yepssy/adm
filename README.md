@@ -1,5 +1,4 @@
 "# icn_1"
-- Trouver les icones parfaits pour le home HOME
 
 -   Modif texte KURS
 -   Infos personnalise dans le aside KURS
