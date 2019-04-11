@@ -123,6 +123,7 @@ main {
     border-radius: 100px 10px / 200px;
     box-shadow: 3px 3px 7px 6px rgba(52,73,94,0.23);
     margin-bottom: 5%;
+    padding: 1%;
 }
 
 

@@ -155,3 +155,13 @@ li a:hover.home{
 li.home#active{
   background-color: #16a085;
 }
+
+a.home-lo:link, a.home-lo:visited {
+    color: #40d47e;
+}
+a.home-lo:hover {
+    color: #2cc36b;
+}
+a.home-lo:active {
+    color: #16a085;
+}
