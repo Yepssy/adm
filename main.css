@@ -39,6 +39,7 @@ nav{
     margin-top:2%;
     float: right;
     max-width: 80%;
+    min-width: 65%;
 
 }
 
@@ -130,11 +131,10 @@ main {
 .corps {
     overflow:auto;
     margin: auto;
-    padding:1% 5%;
-    width: 88%;
+    width: 95%;
 }
 .corps-aside{
-    padding: 0% 3% 16% 16%;
+    padding: 0% 5% 16% 11%;
 }
 .corps-line{
     margin:auto;

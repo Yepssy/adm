@@ -1,8 +1,14 @@
-"# icn_1"
+"# adm"
 
--   Modif texte KURS
--   Infos personnalise dans le aside KURS
--   Mettre + de sugg KURS
+-   Faire les textes
+        OCEANIE & EUROPE => kurs
 
-- Ascenseur perso - https://www.paris2024.org/fr/concept - ABBD
-- ICone de chargement de pages ABBD
+-   Infos personnalise dans le aside
+        OCEANIE & EUROPE => home
+
+-   Images et titres des animaux
+        OCEANIE & EUROPE => home
+
+
+- Ascenseur perso avec la couleurs - https://www.paris2024.org/fr/concept - Canceled
+- Icone de chargement entre les pages => Canceled

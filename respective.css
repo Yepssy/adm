@@ -41,6 +41,15 @@ li.asie#active{
   background-color: #c0392b;
 }
 
+a.asie-lo:link, a.asie-lo:visited {
+    color: #e67e22;
+}
+a.asie-lo:hover {
+    color: #ea6153;
+}
+a.asie-lo:active {
+    color: #c0392b;
+}
 
 header.master.europe{
     background: linear-gradient(#4aa3df 75%, #339dff);
@@ -69,6 +78,15 @@ li.europe#active{
   background-color: #2980b9;
 }
 
+a.europe-lo:link, a.europe-lo:visited {
+    color: #4aa3df;
+}
+a.europe-lo:hover {
+    color: #339dff;
+}
+a.europe-lo:active {
+    color: #2980b9;
+}
 
 header.master.oceanie{
     background: linear-gradient(#a66bbe 75%, #9b50ba);
@@ -95,6 +113,16 @@ li a:hover.oceanie{
 }
 li.oceanie#active{
   background-color: #8e44ad;
+}
+
+a.oceanie-lo:link, a.oceanie-lo:visited {
+    color: #a66bbe;
+}
+a.oceanie-lo:hover {
+    color: #9b50ba;
+}
+a.oceanie-lo:active {
+    color: #8e44ad;
 }
 
 
