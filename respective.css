@@ -11,6 +11,7 @@
     src: url("./font/tambsm.ttf");
 }
 
+/* ASIE PAGE */
 header.master.asie{
     background: linear-gradient(#e67e22 75%, #ea6153);
 }
@@ -51,6 +52,13 @@ a.asie-lo:active {
     color: #c0392b;
 }
 
+.scroller.asie {
+    overflow-y: scroll;
+    scrollbar-color: #c0392b #e67e22;
+    scrollbar-width: thin;
+}
+
+/* EUROPE PAGE */
 header.master.europe{
     background: linear-gradient(#4aa3df 75%, #339dff);
 }
@@ -88,6 +96,13 @@ a.europe-lo:active {
     color: #2980b9;
 }
 
+.scroller.europe {
+    overflow-y: scroll;
+    scrollbar-color: #2980b9 #4aa3df;
+    scrollbar-width: thin;
+}
+
+/* OCEANIE PAGE */
 header.master.oceanie{
     background: linear-gradient(#a66bbe 75%, #9b50ba);
 }
@@ -125,7 +140,13 @@ a.oceanie-lo:active {
     color: #8e44ad;
 }
 
+.scroller.oceanie {
+    overflow-y: scroll;
+    scrollbar-color: #8e44ad #a66bbe;
+    scrollbar-width: thin;
+}
 
+/* HOME PAGE */
 header.master.home{
     background: linear-gradient(#40d47e 75%, #2cc36b);
 }
@@ -164,4 +185,10 @@ a.home-lo:hover {
 }
 a.home-lo:active {
     color: #16a085;
+}
+
+.scroller.home {
+    overflow-y: scroll;
+    scrollbar-color: #16a085 #40d47e;
+    scrollbar-width: thin;
 }
