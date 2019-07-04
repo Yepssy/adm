@@ -1,3 +1,5 @@
+var next_available;
+
 function alerte(){
   return false;
 }
@@ -66,8 +68,10 @@ function responsive(){
     let colmain = document.getElementById("main-column");
     colmain.style.width = "auto";
 
-    let colaside = document.getElementById("aside-column");
-    colaside.style.width = "auto";
+    if (next_available != false){
+      let colaside = document.getElementById("aside-column");
+      colaside.style.width = "auto";
+    }
 
     let li = document.getElementsByTagName("li")
     for (i = 0; i < 5; i++) {
@@ -114,4 +118,7 @@ var n = 25;
 //document.onselectstart=alerte;
 
 document.onload=setTimeout(responsive, 2500);
-setTimeout(next, 460);
+
+if (next_available != false){
+  setTimeout(next, 460);  
+}
