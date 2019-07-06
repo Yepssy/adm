@@ -73,14 +73,14 @@ function responsive(){
       colaside.style.width = "auto";
     }
 
-    let li = document.getElementsByTagName("li")
-    for (i = 0; i < 5; i++) {
-      li[i].style.float = "none";
-    }
-
     let logo = document.getElementsByClassName("logo")
     for (i = 0; i < logo.length; i++) {
-      logo[i].style.width = "auto";
+      logo[i].style.width = "100%";
+    }
+
+    let imgdefil = document.getElementsByClassName("img-defil")
+    for (i = 0; i < imgdefil.length; i++) {
+      imgdefil[i].style.width = "30%";
     }
 
     let nav = document.getElementsByTagName("nav")
@@ -88,6 +88,12 @@ function responsive(){
       nav[i].style.margin = "0";
       nav[i].style.float = "0";
     }
+
+    let li = document.getElementsByTagName("li")
+    for (i = 0; i < 5; i++) {
+      li[i].style.float = "none";
+    }
+
 
 
     //let ul = document.getElementsByTagName("ul")
