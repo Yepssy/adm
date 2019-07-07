@@ -57,7 +57,7 @@ function next(){
 
 function responsive(){
 
-  if (document.body.clientWidth <= 900) {
+  if (document.body.clientWidth <= 1000) {
     let i;
 
     let colleft = document.getElementsByClassName("column-left");
@@ -67,6 +67,11 @@ function responsive(){
 
     let colmain = document.getElementById("main-column");
     colmain.style.width = "auto";
+
+    let rotate = document.getElementById("rotate");
+    rotate.style.width = "10%";
+    rotate.style.top = "92%";
+    rotate.style.left = "88%";
 
     if (next_available != false){
       let colaside = document.getElementById("aside-column");
