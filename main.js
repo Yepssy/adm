@@ -124,7 +124,7 @@ var n = 25;
 //document.onselectstart=alerte;
 
 document.onload=setTimeout(responsive, 1000);
-
+document.onload=setTimeout(responsive, 2500);
 
 
 
