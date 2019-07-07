@@ -10,12 +10,19 @@
         <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
         <script src="main.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript">
+        $(window).load(function() {
+	    $(".loader").fadeOut("1000");
+        })
+        </script>
         <link rel="icon" href="image/homefavicon.ico" />
         <meta name="theme-color" content="#40d47e">
         <title>ADM - Acceuil</title>
     </head>
 
     <body onload="next_available = false;">
+    <div class="loader"><div class="loader loader-img"></div></div>
     <header class="home master">
         <div class="content-column">
             <div id="main-header">

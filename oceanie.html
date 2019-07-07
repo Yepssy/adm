@@ -10,11 +10,19 @@
         <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
         <script src="main.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript">
+        $(window).load(function() {
+	    $(".loader").fadeOut("1000");
+        })
+        </script>
         <link rel="icon" href="image/oceaniefavicon.ico" />
         <meta name="theme-color" content="#a66bbe">
         <title>ADM - Oceanie</title>
     </head>
+    
     <body>
+    <div class="loader"><div class="loader loader-img"></div></div>        
     <header class="oceanie master">
         <div class="content-column">
             <div id="main-header">

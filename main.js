@@ -123,7 +123,10 @@ var n = 25;
 //document.oncontextmenu =alerte;
 //document.onselectstart=alerte;
 
-document.onload=setTimeout(responsive, 2000);
+document.onload=setTimeout(responsive, 1000);
+
+
+
 
 if (next_available != false){
   setTimeout(next, 460);  
