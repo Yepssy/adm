@@ -1,14 +1,20 @@
 @font-face {
   font-family: "Asiago";
-  src: url("./font/Asiago.ttf");
+  src: url("./font/Asiago.woff2") format('woff2');
+  src: url("./font/Asiago.woff") format('woff');
+  src: url("./font/Asiago.ttf") format('truetype');
 }
 @font-face{
     font-family: "EuropeUndergroundBlack";
-    src: url("./font/EuropeUnderground_black.ttf");
+    src: url("./font/EuropeUnderground_black.woff2") format('woff2');
+    src: url("./font/EuropeUnderground_black.woff") format('woff');
+    src: url("./font/EuropeUnderground_black.ttf") format('truetype');
 }
 @font-face{
     font-family: "Tambsm";
-    src: url("./font/tambsm.ttf");
+    src: url("./font/tambsm.woff2") format('woff2');
+    src: url("./font/tambsm.woff") format('woff');
+    src: url("./font/tambsm.ttf") format('truetype');
 }
 
 /* ASIE PAGE */
