@@ -20,7 +20,7 @@ body {
 .loader-img {
     position : fixed;
     z-index: 9999;
-    background : url('image/loading.gif') 50% 50% no-repeat;
+    /*background : url('image/loading.gif') 50% 50% no-repeat; */
     top : 0px;
     left : 0px;
     height : 100%;
