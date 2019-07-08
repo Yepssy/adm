@@ -91,7 +91,19 @@ function responsive(){
     for (i = 0; i < 1; i++) {
       nav[i].style.margin = "0";
       nav[i].style.float = "0";
+      nav[i].style.maxWidth = "95%";
+      nav[i].style.width = "95%";
     }
+
+    let ul = document.getElementsByTagName("ul")
+    for (let i = 0; i < ul.length; i++) {
+      const element = ul[i];
+      if (element.className.includes("master")) {
+        element.style.margin = "20px 0px 0px 0px"
+      }
+    }
+    
+    
 
     let li = document.getElementsByTagName("li")
     for (i = 0; i < li.length; i++) {
