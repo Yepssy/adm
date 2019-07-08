@@ -93,22 +93,9 @@ function responsive(){
       nav[i].style.float = "0";
     }
 
-    let li = document.getElementsByTagName("li")
-    for (i = 0; i < 5; i++) {
-      li[i].style.float = "none";
-    }
-
-
-
-    //let ul = document.getElementsByTagName("ul")
-    //for (i = 0; i < 1; i++) {
-    //  ul[i].style.border-radius = "0 auto";
-    //}
-
     let crpaside = document.getElementsByClassName("corps-aside");
     for (i = 0; i < crpaside.length; i++) {
       crpaside[i].style.padding = "1% 5%";
-
     }
   }
 
