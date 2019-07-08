@@ -124,11 +124,11 @@ X = 0 ;
 var n = 25;
 
 let ccavert = false;
-document.oncontextmenu =alerte;
-document.onselectstart=alerte;
+//document.oncontextmenu =alerte;
+//document.onselectstart=alerte;
 
-//document.onload=setTimeout(responsive, 1000);
-//document.onload=setTimeout(responsive, 2500);
+document.onload=setTimeout(responsive, 1000);
+document.onload=setTimeout(responsive, 2500);
 
 
 
