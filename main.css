@@ -6,6 +6,27 @@ body {
     background-color: #ecf0f1;
 }
 
+.loader{
+    position : fixed;
+    z-index: 9999;
+    background : #ffffff;
+    background-size: cover;
+    top : 0px;
+    left : 0px;
+    height : 100%;
+    width : 100%;
+    cursor : wait;
+}
+.loader-img {
+    position : fixed;
+    z-index: 9999;
+    background : url('image/loading.gif') 50% 50% no-repeat;
+    top : 0px;
+    left : 0px;
+    height : 100%;
+    width : 100%;
+    cursor : wait;
+}
 
 header.master {
     padding:25px 0px;
@@ -175,6 +196,9 @@ main {
 }
 
 
+.ccimg{
+    text-align: center;
+}
 
 img.floating-top{
     width: 5%;
@@ -190,26 +214,4 @@ img.floating-top:hover{
 footer.master {
     padding:25px 0px;
     text-align: center;
-}
-
-.loader{
-    position : fixed;
-    z-index: 9999;
-    background : #ffffff;
-    background-size: cover;
-    top : 0px;
-    left : 0px;
-    height : 100%;
-    width : 100%;
-    cursor : wait;
-}
-.loader-img {
-    position : fixed;
-    z-index: 9999;
-    background : url('image/loading.gif') 50% 50% no-repeat;
-    top : 0px;
-    left : 0px;
-    height : 100%;
-    width : 100%;
-    cursor : wait;
 }
