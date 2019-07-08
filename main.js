@@ -93,9 +93,9 @@ function responsive(){
       nav[i].style.float = "0";
     }
 
-    let crpaside = document.getElementsByClassName("corps-aside");
-    for (i = 0; i < crpaside.length; i++) {
-      crpaside[i].style.padding = "1% 5%";
+    let li = document.getElementsByTagName("li")
+    for (i = 0; i < li.length; i++) {
+      li[i].style.float = "none";
     }
   }
 
