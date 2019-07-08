@@ -1,7 +1,13 @@
 var next_available;
 
 function alerte(){
-  return false;
+  if (ccavert) {
+    return true;
+  } else {
+    ccavert = true;
+    alert("Cette œuvre est mise à disposition selon les termes de la Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International /n Vous pouvez désormais accéder au code source :)")
+    return false;
+  }
 }
 
 function so(){
@@ -9,13 +15,6 @@ function so(){
   if (i == 6) {
     alert("Easter Eggs :  Oh Tourniquet !! ")
     var ee = true
-  }
-}
-function stay(){
-  if (ee == true) {
-    alert("Reste avec nous stp ! ")
-  } else {
-    alert("Reste avec nous stp ! P-S : Ya un easter egg !!")
   }
 }
 
@@ -124,12 +123,12 @@ Xm = 3 ;
 X = 0 ;
 var n = 25;
 
+let ccavert = false;
+document.oncontextmenu =alerte;
+document.onselectstart=alerte;
 
-//document.oncontextmenu =alerte;
-//document.onselectstart=alerte;
-
-document.onload=setTimeout(responsive, 1000);
-document.onload=setTimeout(responsive, 2500);
+//document.onload=setTimeout(responsive, 1000);
+//document.onload=setTimeout(responsive, 2500);
 
 
 
