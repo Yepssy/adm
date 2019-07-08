@@ -1,4 +1,11 @@
-﻿html, body {
+﻿@font-face{
+    font-family: 'Space Mono';
+    src: url("./font/SpaceMono-Regular.woff2") format('woff2'),
+        url("./font/SpaceMono-Regular.woff") format('woff'),
+        url("./font/SpaceMono-Regular.ttf") format('truetype');
+}
+
+html, body {
     margin:0;
 	padding:0;
 }

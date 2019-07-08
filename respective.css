@@ -1,20 +1,26 @@
 @font-face {
   font-family: "Asiago";
-  src: url("./font/Asiago.woff2") format('woff2');
-  src: url("./font/Asiago.woff") format('woff');
-  src: url("./font/Asiago.ttf") format('truetype');
+    src: url("./font/Asiago.woff2") format('woff2'),
+        url("./font/Asiago.woff") format('woff'),
+        url("./font/Asiago.ttf") format('truetype');
 }
 @font-face{
     font-family: "EuropeUndergroundBlack";
-    src: url("./font/EuropeUnderground_black.woff2") format('woff2');
-    src: url("./font/EuropeUnderground_black.woff") format('woff');
-    src: url("./font/EuropeUnderground_black.ttf") format('truetype');
+    src: url("./font/EuropeUnderground_black.woff2") format('woff2'),
+    url("./font/EuropeUnderground_black.woff") format('woff'),
+        url("./font/EuropeUnderground_black.ttf") format('truetype');
 }
 @font-face{
     font-family: "Tambsm";
-    src: url("./font/tambsm.woff2") format('woff2');
-    src: url("./font/tambsm.woff") format('woff');
-    src: url("./font/tambsm.ttf") format('truetype');
+    src: url("./font/tambsm.woff2") format('woff2'),
+        url("./font/tambsm.woff") format('woff'),
+        url("./font/tambsm.ttf") format('truetype');
+}
+@font-face{
+    font-family: "Josefin Sans";
+    src: url("./font/JosefinSans-Regular.woff2") format('woff2'),
+        url("./font/JosefinSans-Regular.woff") format('woff'),
+        url("./font/JosefinSans-Regular.ttf") format('truetype');
 }
 
 /* ASIE PAGE */
