@@ -1,0 +1,211 @@
+//colors
+$color_withy: #fbfcfc;
+$color_shadow: rgba(52,73,94,0.23);
+
+//fonts
+$font_normal: "Space Mono";
+$font_home: "Josefin Sans";
+$font_defanimaux: "Arial";
+
+//urls
+$url_normalw2: url("./font/SpaceMono-Regular.woff2");
+$url_normalw: url("./font/SpaceMono-Regular.woff");
+$url_normalt: url("./font/SpaceMono-Regular.ttf");
+$url_loading: url("image/loading.gif");
+
+@font-face {
+	font-family: $font_normal;
+	src: $url_normalw2 format('woff2'), $url_normalw format('woff'), $url_normalt format('truetype');
+}
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.loader {
+	position: fixed;
+	z-index: 9999;
+	background: white;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	cursor: wait;
+}
+.loader-img {
+	position: fixed;
+	z-index: 9999;
+	background: $url_loading 50% 50% no-repeat;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	cursor: wait;
+}
+p {
+	font-size: 16px;
+	font-family: $font_normal;
+	text-align: justify;
+}
+h1 {
+	font-family: $font_home;
+	font-size: 42px;
+	text-align: center;
+	display: inline-block;
+}
+nav {
+	margin-top: 2%;
+	float: right;
+	max-width: 80%;
+	min-width: 65%;
+}
+h2 {
+	font-size: 30px;
+}
+#main-header {
+	display: inline-block;
+	width: 100%;
+}
+.logo {
+	float: left;
+	min-width: 20%;
+	height: 100%;
+	vertical-align: middle;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+}
+.img-defil {
+	width: 50%;
+	display: none;
+}
+main {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	padding: 25px 0;
+	text-align: center;
+}
+#main-corps-line {
+	margin: auto;
+	overflow: inherit;
+	padding: 3%;
+}
+.content-column {
+	max-width: 80%;
+	background-color: $color_withy;
+	margin: auto;
+	padding: 35px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 100px 10px / 200px;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 3px 3px 7px 6px $color_shadow;
+}
+#aside-column {
+	width: 25%;
+	height: 100%;
+	background-color: $color_withy;
+	float: right;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px 100px / 200px;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 3px 3px 7px 6px $color_shadow;
+}
+#main-column {
+	width: 72%;
+	background-color: $color_withy;
+	float: left;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 100px 10px / 200px;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 3px 3px 7px 6px $color_shadow;
+	margin-bottom: 5%;
+	padding: 1%;
+}
+.corps {
+	overflow: auto;
+	margin: auto;
+	width: 90%;
+}
+.corps-aside {
+	padding: 0 5% 16% 11%;
+}
+.corps-line {
+	margin: auto;
+	height: 100%;
+	overflow: inherit;
+}
+.column-right {
+	overflow: none;
+	min-width: min-content;
+	.column-left {
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+.column-left {
+	float: left;
+	width: 50%;
+}
+.gif-animaux {
+	text-align: center;
+	height: 115px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 15px;
+}
+.def-animaux {
+	font-family: $font_defanimaux;
+}
+.floating-top {
+	position: fixed;
+	top: 89%;
+	left: 94%;
+}
+.ccimg {
+	text-align: center;
+}
+#master-cc {
+	width: 20%;
+}
+header.master {
+	padding: 25px 0;
+	text-align: center;
+}
+ul.master {
+	list-style-type: none;
+	margin: 20px 20px 0 0;
+	padding: 0 0 0 10px;
+	width: 100%;
+	float: right;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px 100px / 200px;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 3px 3px 7px 6px $color_shadow;
+}
+li.master {
+	float: left;
+	font-size: 25px;
+	min-width: 10%;
+	height: 79px;
+}
+a.master {
+	display: block;
+	color: $color_withy;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	height: 50px;
+}
+img.floating-top {
+	width: 5%;
+	&:hover {
+		opacity: 0.7;
+	}
+}
+footer.master {
+	padding: 25px 0;
+	text-align: center;
+}
