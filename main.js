@@ -90,7 +90,7 @@ function responsive(){
     let nav = document.getElementsByTagName("nav")
     for (i = 0; i < 1; i++) {
       nav[i].style.margin = "0";
-      nav[i].style.float = "0";
+      nav[i].style.cssFloat = "0";
       nav[i].style.maxWidth = "95%";
       nav[i].style.width = "95%";
     }
@@ -107,7 +107,7 @@ function responsive(){
 
     let li = document.getElementsByTagName("li")
     for (i = 0; i < li.length; i++) {
-      li[i].style.float = "none";
+      li[i].style.cssFloat = "none";
     }
   }
 
