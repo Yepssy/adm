@@ -1,0 +1,8 @@
+User-Agent: *
+Allow: /
+Disallow: /image/
+Disallow: /font/
+Disallow: /license/
+Disallow: /*.code-workspace$
+
+Sitemap: https://adm.jessyfallavier.fr/sitemap.txt
