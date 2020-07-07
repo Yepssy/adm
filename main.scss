@@ -2,16 +2,16 @@
 $color_withy: #fbfcfc;
 $color_shadow: rgba(52,73,94,0.23);
 
-//fonts
+//resources/fonts
 $font_normal: "Space Mono";
 $font_home: "Josefin Sans";
 $font_defanimaux: "Arial";
 
 //urls
-$url_normalw2: url("./font/SpaceMono-Regular.woff2");
-$url_normalw: url("./font/SpaceMono-Regular.woff");
-$url_normalt: url("./font/SpaceMono-Regular.ttf");
-$url_loading: url("image/loading.gif");
+$url_normalw2: url("./resources/font/SpaceMono-Regular.woff2");
+$url_normalw: url("./resources/font/SpaceMono-Regular.woff");
+$url_normalt: url("./resources/font/SpaceMono-Regular.ttf");
+$url_loading: url("./resources/image/loading.gif");
 
 @font-face {
 	font-family: $font_normal;

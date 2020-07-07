@@ -13,25 +13,25 @@ $color_home2: #2cc36b;
 $color_home3: #16a085;
 $color_whity: #fbfcfc;
 
-//fonts
+//resources/fonts
 $font_asie: "Asiago";
 $font_europe: "EuropeUndergroundBlack";
 $font_oceanie: "Tambsm";
 $font_home: "Josefin Sans";
 
 //urls
-$url_asiew2: url("./font/Asiago.woff2");
-$url_asiew: url("./font/Asiago.woff");
-$url_asiet: url("./font/Asiago.ttf");
-$url_europew2: url("./font/EuropeUnderground_black.woff2");
-$url_europew: url("./font/EuropeUnderground_black.woff");
-$url_europet: url("./font/EuropeUnderground_black.ttf");
-$url_oceaniew2: url("./font/tambsm.woff2");
-$url_oceaniew: url("./font/tambsm.woff");
-$url_oceaniet: url("./font/tambsm.ttf");
-$url_homew2: url("./font/JosefinSans-Regular.woff2");
-$url_homew: url("./font/JosefinSans-Regular.woff");
-$url_homet: url("./font/JosefinSans-Regular.ttf");
+$url_asiew2: url("./resources/font/Asiago.woff2");
+$url_asiew: url("./resources/font/Asiago.woff");
+$url_asiet: url("./resources/font/Asiago.ttf");
+$url_europew2: url("./resources/font/EuropeUnderground_black.woff2");
+$url_europew: url("./resources/font/EuropeUnderground_black.woff");
+$url_europet: url("./resources/font/EuropeUnderground_black.ttf");
+$url_oceaniew2: url("./resources/font/tambsm.woff2");
+$url_oceaniew: url("./resources/font/tambsm.woff");
+$url_oceaniet: url("./resources/font/tambsm.ttf");
+$url_homew2: url("./resources/font/JosefinSans-Regular.woff2");
+$url_homew: url("./resources/font/JosefinSans-Regular.woff");
+$url_homet: url("./resources/font/JosefinSans-Regular.ttf");
 
 @font-face {
 	font-family: $font_asie;
@@ -228,25 +228,19 @@ a {
 	}
 }
 .scroller {
+	overflow-y: scroll;
+	scrollbar-width: thin;
 	&.asie {
-		overflow-y: scroll;
 		scrollbar-color: $color_asie3 $color_asie1;
-		scrollbar-width: thin;
 	}
 	&.europe {
-		overflow-y: scroll;
 		scrollbar-color: $color_europe3 $color_europe1;
-		scrollbar-width: thin;
 	}
 	&.oceanie {
-		overflow-y: scroll;
 		scrollbar-color: $color_oceanie3 $color_oceanie1;
-		scrollbar-width: thin;
 	}
 	&.home {
-		overflow-y: scroll;
 		scrollbar-color: $color_home3 $color_home1;
-		scrollbar-width: thin;
 	}
 }
 html {

@@ -4,6 +4,7 @@ Cette oeuvre est mise à disposition selon les termes de la Licence Creative Com
 
 ToDoList :
 
-- Icone de chargement entre les pages => En cours / In Progress
-- Couleurs dans le barre de navigation mobile (voir pc) => A voir
-
+- Nouvelles pages
+    - Crédits
+    - Informations
+    - Mentions Légales
