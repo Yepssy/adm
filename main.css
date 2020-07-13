@@ -35,6 +35,9 @@ p {
   font-family: "Space Mono";
   text-align: justify; }
 
+p > main.leg {
+  text-align: center !important; }
+
 h1 {
   font-family: "Josefin Sans";
   font-size: 42px;

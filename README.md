@@ -8,3 +8,13 @@ ToDoList :
     - Crédits
     - Informations
     - Mentions Légales
+
+Couleurs :
+
+- https://htmlcolorcodes.com/fr/tableau-de-couleur/tableau-de-couleur-design-plat/
+
+* Home : Emerald
+* Asie : Alizarin
+* Océanie : Amethyst
+* Europe : Turquoise
+* Leg :  Orange

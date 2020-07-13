@@ -1,16 +1,24 @@
 //colors
-$color_asie1: #e67e22;
-$color_asie2: #ea6153;
-$color_asie3: #c0392b;
-$color_europe1: #4aa3df;
-$color_europe2: #339dff;
-$color_europe3: #2980b9;
-$color_oceanie1: #a66bbe;
-$color_oceanie2: #9b50ba;
-$color_oceanie3: #8e44ad;
-$color_home1: #40d47e;
-$color_home2: #2cc36b;
-$color_home3: #16a085;
+$color_asie1: #ec7063;
+$color_asie2: #e74c3c;
+$color_asie3: #cb4335;
+$color_asie_whity: #fdedec;
+$color_europe1: #48c9b0;
+$color_europe2: #1abc9c;
+$color_europe3: #17a589;
+$color_europe_whity: #e8f8f5;
+$color_oceanie1: #af7ac5;
+$color_oceanie2: #9b59b6;
+$color_oceanie3: #884ea0;
+$color_oceanie_whity: #f5eef8;
+$color_home1: #58d68d;
+$color_home2: #2ecc71;
+$color_home3: #28b463;
+$color_home_whity: #eafaf1;
+$color_leg1: #f5b041;
+$color_leg2: #f39c12;
+$color_leg3: #d68910;
+$color_leg_whity: #fef5e7;
 $color_whity: #fbfcfc;
 
 //resources/fonts
@@ -18,6 +26,7 @@ $font_asie: "Asiago";
 $font_europe: "EuropeUndergroundBlack";
 $font_oceanie: "Tambsm";
 $font_home: "Josefin Sans";
+$font_leg: "Josefin Sans";
 
 //urls
 $url_asiew2: url("./resources/font/Asiago.woff2");
@@ -32,6 +41,9 @@ $url_oceaniet: url("./resources/font/tambsm.ttf");
 $url_homew2: url("./resources/font/JosefinSans-Regular.woff2");
 $url_homew: url("./resources/font/JosefinSans-Regular.woff");
 $url_homet: url("./resources/font/JosefinSans-Regular.ttf");
+$url_legw2: url("./resources/font/JosefinSans-Regular.woff2");
+$url_legw: url("./resources/font/JosefinSans-Regular.woff");
+$url_legt: url("./resources/font/JosefinSans-Regular.ttf");
 
 @font-face {
 	font-family: $font_asie;
@@ -62,6 +74,9 @@ main {
 	&.home {
 		background: linear-gradient($color_home2 25%, $color_home3 75%, $color_home2);
 	}
+	&.leg {
+		background: linear-gradient($color_leg2 25%, $color_leg3 75%, $color_leg2);
+	}
 }
 h1 {
 	&.asie {
@@ -75,6 +90,9 @@ h1 {
 	}
 	&.home {
 		color: $color_home2;
+	}
+	&.leg {
+		color: $color_leg2;
 	}
 }
 h2 {
@@ -94,6 +112,10 @@ h2 {
 		color: $color_home2;
 		font-family: $font_home;
 	}
+	&.leg {
+		color: $color_leg2;
+		font-family: $font_leg;
+	}
 }
 h3 {
 	&.asie {
@@ -112,6 +134,10 @@ h3 {
 		color: $color_home2;
 		font-family: $font_home;
 	}
+	&.leg {
+		color: $color_leg2;
+		font-family: $font_leg;
+	}
 }
 span {
 	&.asie {
@@ -126,6 +152,9 @@ span {
 	&.home {
 		font-family: $font_home;
 	}
+	&.leg {
+		font-family: $font_leg;
+	}
 }
 ul {
 	&.asie {
@@ -139,6 +168,9 @@ ul {
 	}
 	&.home {
 		background-color: $color_home1;
+	}
+	&.leg {
+		background-color: $color_leg1;
 	}
 }
 li {
@@ -155,6 +187,9 @@ li {
 		&.home {
 			background-color: $color_home2;
 		}
+		&.leg {
+			background-color: $color_leg2;
+		}
 	}
 	&.asie#active {
 		background-color: $color_asie3;
@@ -167,6 +202,9 @@ li {
 	}
 	&.home#active {
 		background-color: $color_home3;
+	}
+	&.leg#active {
+		background-color: $color_leg3;
 	}
 }
 a {
@@ -226,6 +264,20 @@ a {
 			color: $color_home3;
 		}
 	}
+	&.leg-lo {
+		&:link {
+			color: $color_leg1;
+		}
+		&:visited {
+			color: $color_leg1;
+		}
+		&:hover {
+			color: $color_leg2;
+		}
+		&:active {
+			color: $color_leg3;
+		}
+	}
 }
 .scroller {
 	overflow-y: scroll;
@@ -241,6 +293,9 @@ a {
 	}
 	&.home {
 		scrollbar-color: $color_home3 $color_home1;
+	}
+	&.leg {
+		scrollbar-color: $color_leg3 $color_leg1;
 	}
 }
 html {
@@ -284,6 +339,16 @@ html {
 			color: $color_whity;
 		}
 	}
+	&.leg {
+		*::-moz-selection {
+			background-color: $color_leg1;
+			color: $color_whity;
+		}
+		*::selection {
+			background-color: $color_leg1;
+			color: $color_whity;
+		}
+	}
 }
 header.master {
 	&.asie {
@@ -297,6 +362,9 @@ header.master {
 	}
 	&.home {
 		background: linear-gradient($color_home1 75%, $color_home2);
+	}
+	&.leg {
+		background: linear-gradient($color_leg1 75%, $color_leg2);
 	}
 }
 footer.master {
