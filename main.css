@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Space Mono";
   src: url("./resources/font/SpaceMono-Regular.woff2") format("woff2"), url("./resources/font/SpaceMono-Regular.woff") format("woff"), url("./resources/font/SpaceMono-Regular.ttf") format("truetype"); }
@@ -34,6 +35,16 @@ p {
   font-size: 16px;
   font-family: "Space Mono";
   text-align: justify; }
+
+li.no-menu {
+  font-size: 16px;
+  font-family: "Space Mono"; }
+
+li.no-menu:before {
+  content: "→ "; }
+
+ul.no-menu {
+  list-style-type: none; }
 
 p > main.leg {
   text-align: center !important; }
